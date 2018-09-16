@@ -1,0 +1,8 @@
+{
+    "name": "vlz-color-analysis",
+    "alias": "color.vectorlogo.zone",
+    "features": {
+        "cloud": "v2"
+    },
+	"type": "docker"
+}

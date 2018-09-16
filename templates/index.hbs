@@ -1,0 +1,32 @@
+{{> above}}
+<p>
+    A simple wrapper around <a href="https://github.com/zeke/get-svg-colors">zeke/get-svg-colors</a>
+</p>
+{{# if msgtype }}{{# if msgtext }}
+    <div class="alert alert-{{msgtype}}">{{msgtext}}</div>
+{{/if}}{{/if}}
+<p>
+<script src="/js/color-analysis.js"></script>
+<form method="post" action="/" id="theForm">
+    <fieldset>
+        <legend>
+            Get the colors from an SVG
+        </legend>
+        <div class="input-field">
+            <label>URL of image (SVG only)</label>
+            <input type="text" name="url" value="" />
+        </div>
+
+        <div class="input-field">
+            <input class="button button-primary" type="submit" value="Analyze" />
+        </div>
+    </fieldset>
+
+</form>
+</p>
+<div class="row">
+    <div class="col" id="results">
+
+    </div>
+</div>
+{{> below}}
