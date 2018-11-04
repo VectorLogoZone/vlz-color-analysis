@@ -1,6 +1,5 @@
-<img alt="TIL Logo" src="https://color.vectorlogo.zone/favicon.svg" height="96" >
 
-# Color Analysis
+# Color Analysis [<img alt="TIL Logo" src="https://color.vectorlogo.zone/favicon.svg" height="90" align="right" />](https://color.vectorlogo.zone/)
 
 [VLZ Color Analysis](https://color.vectorlogo.zone/) is an API (and web interface for testing it) to extract the colors used in an SVG file.
 
@@ -25,8 +24,6 @@ The return is a JSON object with a `colors` property that is an array of colors 
   "url": "https://www.vectorlogo.zone/logos/vectorlogozone/vectorlogozone-ar21.svg"
 }
 ```
-
-
 
 ## Contributing
 
