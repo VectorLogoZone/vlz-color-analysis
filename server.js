@@ -30,7 +30,7 @@ hbs.registerPartial("above", fs.readFileSync("./partials/above.hbs", "utf-8"));
 hbs.registerPartial("below", fs.readFileSync("./partials/below.hbs", "utf-8"));
 
 function sendJson(req, res, jsonObj) {
-    if ('cb' in req.query)
+    if ('callback' in req.query)
     {
         res.jsonp(jsonObj);
     }

@@ -19,11 +19,13 @@ The return is a JSON object with a `colors` property that is an array of colors 
 {
   "success": true,
   "colors": [
-    "#2C3E50"
+    "#1D8286"
   ],
   "url": "https://www.vectorlogo.zone/logos/vectorlogozone/vectorlogozone-ar21.svg"
 }
 ```
+
+You can call is as JSONP by passing a `callback` parameter.
 
 ## Contributing
 
