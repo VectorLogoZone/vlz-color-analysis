@@ -3,7 +3,7 @@
 
 [VLZ Color Analysis](https://color.vectorlogo.zone/) is an API (and web interface for testing it) to extract the colors used in an SVG file.
 
-Really just a wrapper for [get-svg-colors](https://github.com/zeke/get-svg-colors) so it can be used from [VectorLogoZone](https://www.vectorlogo.zone/), which is a static site.
+Really just a wrapper for [get-svg-colors](https://github.com/colorjs/get-svg-colors) so it can be used from [VectorLogoZone](https://www.vectorlogo.zone/), which is a static site.
 
 ## Running
 
